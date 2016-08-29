@@ -121,3 +121,15 @@ iframe{
 .baj{
 	margin-left: -12%;
 }
+.flecha:hover{
+	transform: rotate(360deg);
+	transition: .8s;
+}
+.rota:hover{
+	transform: rotate(20deg);
+	transition: .5s;
+}
+footer{
+	background-color: #303030;
+	padding: 2%;
+}
