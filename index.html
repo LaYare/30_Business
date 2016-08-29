@@ -46,30 +46,55 @@
 								<p>Obtén un video gratis de 5 minutos</p>	
 							</div>
 							<div class="col-xs-6 col-sm-6 "><!--boton que lleva al modal-->
-								<a href="#gratis" class="btn btn-primary btn-lg" data-toggle="modal"> Puebalo gratis</a>
+								<a href="#gratis" class="btn bor btn-lg" data-toggle="modal"> Puebalo gratis</a>
 								<!--aqui empieza el modal-->
-								<div class="modal fade" id="gratis">
-									<div class="modal-dialog">
+								<div class="modal fade fondo" id="gratis">
+									<div class="modal-dialog blanco">
 										<!--header del modal-->
-										<div class="modal-content">
+										<div class="modal-content brd">
 											<button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-											<h4 class="modal-title">Formulario User Testing</h4>
+											<h2 class="modal-title">Formulario User Testing</h2>
+											<hr>
 										</div>
 										<!--contenido del modal-->
 										<div class="modal-body">
 											<form>
-												
-											</form>
-											<button type="button" class="btn btn-primary" data-dismiss="modal">Enviar Email</button>	
+											<div class="row">
+												<div class="col-xs-4">
+													<h4>Nombre<span class="red">*</span></h4>	
+												</div>
+												<div class="col-xs-8">
+													<input type="text" name="Nombre">	
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-4">
+													<h4>Email<span class="red">*</span></h4>	
+												</div>
+												<div class="col-xs-8">
+													<input type="text" name="Nombre">	
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-4">
+													<h4>Dejame tu url<span class="red">*</span></h4>	
+												</div>
+												<div class="col-xs-8">
+													<textarea type="text" name="Textarea"></textarea>	
+													<button type="button" class="btn btn-primary" data-dismiss="modal">Enviar Email</button>
+													<input type="text" name="texto" id="peque">
+												</div>
+											</div>	
+											</form>	
 										</div>
 										<!--footer del modal-->
 										<div class="modal-footer">
 											<div class="row">
 												<div class="col-xs-6">
-													<a>Powered by:<u>Equipo Laboratoria</u></a>
+													<p>Powered by:<u>Equipo Laboratoria</u></p>
 												</div>
 												<div class="col-xs-6">
-													<a>Report abuse</a>
+													<p>Report abuse</p>
 												</div>
 											</div>
 										</div>
@@ -81,6 +106,139 @@
 				</section>
 			</div><!--container-->
 		</header>
+		<section><!--seccion servicios-->
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12">
+						<h2 class="text-primary text-center mgt" >Nuestros servicios</h2>
+					</div>
+				</div>
+				<div class="row mgt">
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<button class="btn center-block rueda">
+							<img src="image/icon/video.png" alt="Video" title="Video" class="img-responsive center-block">
+						</button>
+						<h4 class="text-center text-primary">Pruebalo<br>gratis</h4>
+						<p class="text-center">Obtén un primer video screencast de un<br> usuario navegando tu página.</p>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<button class="btn center-block rueda">
+							<img src="image/icon/reloj.png" alt="Reloj" title="Compra" class="img-responsive center-block">
+						</button>
+						<h4 class="text-center text-primary">Compra el<br> servicio completo</h4>
+						<p class="text-center">Si te gustó: compra nuestro servicio <br> completo que incluye 7 videos y feedback.</p>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+						<button class="btn center-block rueda">
+							<img src="image/icon/paginas.png" alt="Paginas" title="Resultado" class="img-responsive center-block">
+						</button>
+						<h4 class="text-center text-primary">Obtén el resultado <br> en 1 día</h4>
+						<p class="text-center">Te haremos llegar los videos y el feedback<br>completo el mismo día.</p>
+					</div>
+				</div>
+				<div class="row mgt">
+					<div class="col-xs-12">
+						<img src="image/separador.png" class="img-responsive sep">
+						<hr>
+					</div>
+				</div>
+			</div>
+		</section><!--seccion servicios-->
+		<section class="mgt">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<h2 class="text-primary">Ejemplo de
+						<img src="image/logo-2.jpg" class="img-responsive" id="log" alt="logo"></h2>
+						<p>En este video te damos un ejemplo de un integrante de nuestro panel evaluando<br>la experiencia de usa de <br><br><small class="text-primary">mimediamanzana.com</small></p>
+						<p>El objetivo de User Testing 360 es identificar situaciones confusas de los<br>usuarios en su web y describir soluciones, que garanticen una experiencia de<br>uso satisfactoria.</p>
+						<img src="image/flecha.png" class="center-block img-responsive mgt">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<iframe src="https://www.youtube.com/embed/u7MDfG9ZJTU?rel=0"></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="mgt">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="hidden-xs hidden-sm col-md-6 col-lg-6" >
+						<div id="cafe">
+							<div class="trans"></div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						
+						<div class="row">
+							<div class="col-xs-2">
+								<div class="aqua">
+									<img src="image/icon/lapiz.png" alt="link" class="img-responsive center-block">
+								</div>
+							</div>
+							<div class="col-xs-10">
+								<h2>Lo quiero ¿Qué hago?</h2>
+								<p class="text-primary mgt">Paso 1:enviarnos tu link</p>
+								<p>Al darle click al botón de prueba. Coloca tu nombre y tu correo electónico a donde<br>enviaremos el video y el informe con el feedback</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-2">
+								<div class="aqua">
+									<img src="image/icon/herramientas.png" alt="herramientas" class="img-responsive center-block">
+								</div>	
+							</div>
+							<div class="col-xs-10">
+								<p class="text-primary mgt">Paso 2:describe a tu público objetivo</p>
+								<p>Describe las acciones que quieres que evaluemos por ejemplo:</p>
+								<ul>
+									<li class="list">A rpimera vista de ¿Qué crees que trata la página?</li>
+									<li class="list">Busca el botón de inscribirte ó comprar</li>
+									<li class="list">¿Es facil o dificil leer los textos?</li>
+								</ul>
+								<p>Puedes preguntas como las que te mostraremos.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-2">
+								<div class="aqua">
+									<img src="image/icon/busqueda.png" alt="Lupa" class="img-responsive center-block">
+								</div>
+							</div>
+							<div class="col-xs-10">
+								<p class="text-primary mgt">Paso 3:<br>recive un video y el feedback completo</p>
+								<p>Recibe un combo de 7 videos y un informe detallado con las captaciones de<br>usabilidad de tu producto.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<img src="image/separador.png" class="img-responsive baj">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="mgt">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<h2 class="text-primary">Por qué usar
+						<img src="image/logo-2.jpg" class="img-responsive" id="unic" alt="logo"></h2>
+						<p>En la era en la que nos encontramos, la web se ha convertido en el mejor sitio<br>para llegar a millones de personas en segundos, pero ¿qué pasa si el producto<br>digital que ofreces no es bueno o no se entiende? Pierdes esta enorme<br>oportunidad. Con <span class="text-primary"> User Testing 360</span>, puedes entender la experiencia de uso de <br> tu página o producto digital y mejorarla para que satisfaga todas las necesidades <br>de tus usuarios. Con <span class="text-primary"> User Testing 360</span> podrás entender: </p>
+						<ul>
+							<li>¿Cómo tu público objetivo verdaderamente usa tu producto?</li>
+							<li>¿Qué se hace fácil o dificil al navegar en tu producto?</li>
+							<li>¿Qué es lo que tu público quiere hacer y tal vez no obtiene o consigue?</li>
+						</ul>
+						<p><span class="text-primary"> "User Testing 360"</span> te ayudará a responder estas preguntas y muchas más. Es el<br> toque final perfecto para tu página o producto digital.</p>
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<img src="image/banner.jpg" class="img-responsive" alt="Banner">
+					</div>
+				</div>
+			</div>
+		</section>
 		<!--no tocar los scripts-->
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>
