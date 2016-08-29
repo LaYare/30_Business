@@ -6,7 +6,7 @@
 	color: white !important;
 }
 a:hover{
-	color: #26B3FC !important;
+	background-color: #26B3FC !important;
 }
 #compu{
 	background-image: url("../image/large.jpg");
@@ -24,7 +24,7 @@ a:hover{
 }
 .blue{
 	background-color: rgba(23,81,230,.6);
-	padding: 1.2%;
+	padding: 1.4%;
 }
 textarea,input{
 	max-width: 100%;
